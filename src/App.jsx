@@ -1,9 +1,17 @@
-import Logo from './components/Logo';
+
+import CardContainer from './components/CardContainer';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <>
-      <Logo />
+     <Nav />
+     <Hero />
+     <CardContainer />
+
+     <Footer />
     </>
   );
 }
