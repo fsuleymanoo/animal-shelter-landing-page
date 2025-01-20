@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function CardContainer() {
+function CardContainer({ children }) {
   return (
-    <div>
-      Card Container
+    <div className="container">
+      <div className="row p-3 g-2 mb-4 justify-content-center ">{children}</div>
     </div>
-  )
+  );
 }
 
-export default CardContainer
+export default CardContainer;
