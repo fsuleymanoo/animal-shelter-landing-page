@@ -16,7 +16,7 @@ function Card({src, title, short, full}) {
           <p className="card-text mt-2">{full}</p>
         </div>
         <div className="card-footer text-center py-0">
-        <a href="#" class="btn btn-primary">Adopt</a>
+        <a href="#" class="btn btn-primary p-2">Adopt</a>
         </div>
         
       </div>
